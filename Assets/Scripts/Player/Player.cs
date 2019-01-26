@@ -109,7 +109,7 @@ public class Player : MonoBehaviour
 
     private void Animation()
     {
-        spriteRenderer.flipX = facingRight;
+        spriteRenderer.flipX = !facingRight;
         animator.SetFloat("VelocityX", Mathf.Abs(movementInput.x));
         animator.SetFloat("VelocityY", Mathf.Sign(velocity.y));
         animator.SetFloat("Looking", General.Direction2Vector(direction).y);
