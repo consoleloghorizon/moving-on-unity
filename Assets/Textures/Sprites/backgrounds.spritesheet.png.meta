@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 9c45b359c029a6d4e9740e99eb4e276c
+guid: cf94a5c7eb2bbf542b4fa2a56e09bb5e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Pasteman.spritesheet_0
+    21300000: backgrounds.spritesheet_0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -43,7 +43,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -85,13 +85,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pasteman.spritesheet_0
+      name: backgrounds.spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 368
+        width: 160
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -99,7 +99,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 028a8c345122bcc4db3295489b35b8e9
+      spriteID: de91d4a12890cb342854f66d3df1fdce
       vertices: []
       indices: 
       edges: []
@@ -107,7 +107,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 25cb6bb1fe8442b4b83d1db3d388dcb2
+    spriteID: 5623f990ffad55644a10a94512bcf223
     vertices: []
     indices: 
     edges: []
