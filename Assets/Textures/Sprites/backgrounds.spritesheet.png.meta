@@ -3,6 +3,7 @@ guid: cf94a5c7eb2bbf542b4fa2a56e09bb5e
 TextureImporter:
   fileIDToRecycleName:
     21300000: backgrounds.spritesheet_0
+    21300002: backgrounds.spritesheet_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -93,13 +94,33 @@ TextureImporter:
         width: 160
         height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: de91d4a12890cb342854f66d3df1fdce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backgrounds.spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a6216ef5c29a64ca83aa855d50a3be
       vertices: []
       indices: 
       edges: []
