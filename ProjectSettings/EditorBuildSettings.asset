@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_PlatformTemplate.unity
     guid: 890f3f2bcae39534099b08a402d6fa8b
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: eb4c30a7bc0c044918d1aa7490fa0ca4
+  - enabled: 1
+    path: Assets/Scenes/almas1.unity
+    guid: e0f04dbb2224642ea8ca8753068e938f
   m_configObjects: {}
