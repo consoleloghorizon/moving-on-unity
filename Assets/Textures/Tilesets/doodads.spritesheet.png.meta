@@ -1,16 +1,15 @@
 fileFormatVersion: 2
-guid: cf94a5c7eb2bbf542b4fa2a56e09bb5e
+guid: e8d79c79fc2ff9344b313a602007ce67
 TextureImporter:
   fileIDToRecycleName:
-    21300000: spring_bg
-    21300002: spring_sky
-    21300004: house
-    21300006: house_door_overlay
-    21300008: summer_bg
-    21300010: summer_sky
-    21300012: fall_bg
-    21300014: fall_sky
-    21300016: winter_bg
+    21300000: spring_tree
+    21300002: spring_bush
+    21300004: winter_tree
+    21300006: winter_bush
+    21300008: summer_tree
+    21300010: summer_bush
+    21300012: fall_tree
+    21300014: fall_bush
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -51,7 +50,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -93,93 +92,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spring_bg
+      name: spring_tree
       rect:
         serializedVersion: 2
-        x: 0
-        y: 368
-        width: 160
-        height: 144
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de91d4a12890cb342854f66d3df1fdce
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spring_sky
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 480
-        width: 32
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1a6216ef5c29a64ca83aa855d50a3be
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: house
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 250
-        width: 231
-        height: 106
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 036d1b990a3aef3458a698ebc52e067a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: house_door_overlay
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 253
-        width: 4
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f140d9467cb6a6847b16450639c73cc8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: summer_bg
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 368
-        width: 160
-        height: 144
+        x: 4
+        y: 94
+        width: 28
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,19 +106,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3e85de3df0b2b141bbaebb403441e1f
+      spriteID: b257a65b903c09148b77501dda9f058b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: summer_sky
+      name: spring_bush
       rect:
         serializedVersion: 2
-        x: 355
-        y: 480
-        width: 32
-        height: 32
+        x: 38
+        y: 102
+        width: 16
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,38 +126,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 363fe62457cdc6c448a88a264afd2a28
+      spriteID: 18c2b311dc5205e4e975d30020e2a212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fall_bg
+      name: winter_tree
       rect:
         serializedVersion: 2
-        x: 0
+        x: 62
         y: 93
-        width: 160
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9d42763174a3d842b419dfe64325492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fall_sky
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 205
-        width: 32
+        width: 30
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -247,19 +146,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f252cef631b04b4f88a613c1f0eb8e7
+      spriteID: 22becedd6d79b4a40b5f4743b3bf9df9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter_bg
+      name: winter_bush
       rect:
         serializedVersion: 2
-        x: 194
+        x: 93
         y: 93
-        width: 160
-        height: 144
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,7 +166,87 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea71d10474d34134293444f5eb7d5d58
+      spriteID: 4283d598180c17f4496877516257fea6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_tree
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 54
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980ef89abe55fbc4883b53c4feabbe21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summer_bush
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 54
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4479ef5c61633247953a2e418fa76ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_tree
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 53
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c657ced8c9e624595b9725f00620aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall_bush
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 53
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5701e7c75185b44e9174f2e1a1bf99e
       vertices: []
       indices: 
       edges: []
@@ -275,7 +254,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5623f990ffad55644a10a94512bcf223
+    spriteID: 6587f5ff0a3b6be4685d174e8bf1f831
     vertices: []
     indices: 
     edges: []
