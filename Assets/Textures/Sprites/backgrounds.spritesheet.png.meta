@@ -4,6 +4,8 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: backgrounds.spritesheet_0
     21300002: backgrounds.spritesheet_1
+    21300004: house
+    21300006: house_door_overlay
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -93,8 +95,8 @@ TextureImporter:
         y: 368
         width: 160
         height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -113,7 +115,7 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -121,6 +123,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a1a6216ef5c29a64ca83aa855d50a3be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 231
+        height: 106
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036d1b990a3aef3458a698ebc52e067a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_door_overlay
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 253
+        width: 4
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f140d9467cb6a6847b16450639c73cc8
       vertices: []
       indices: 
       edges: []
