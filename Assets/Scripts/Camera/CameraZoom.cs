@@ -13,8 +13,18 @@ public class CameraZoom : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col) {
         Debug.Log("OnCollisionEnter: " + col.gameObject.name);
-        //mainCamera.orthographicSize = sizeValue;
         float initialSize = mainCamera.orthographicSize;
-        mainCamera.orthographicSize = Mathf.Lerp(initialSize, sizeValue, dampTime * Time.deltaTime);
+        StartCoroutine(LerpCameraSize(initialSize, sizeValue, dampTime));
+    }
+
+    private IEnumerator LerpCameraSize(float initialSize, float finalSize, float time) {
+        float elapsedTime = 0;
+        mainCamera.orthographicSize = initialSize;
+
+        while (elapsedTime < time) {
+            mainCamera.orthographicSize = Mathf.Lerp(initialSize, sizeValue, elapsedTime / time);
+            elapsedTime += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
     }
 }
