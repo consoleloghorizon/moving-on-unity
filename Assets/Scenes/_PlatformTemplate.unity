@@ -919,6 +919,7 @@ MonoBehaviour:
   mainCamera: {fileID: 1909079482}
   dampTime: 0.5
   sizeValue: 10
+  yValue: 9
 --- !u!4 &737022092
 Transform:
   m_ObjectHideFlags: 0
@@ -992,6 +993,7 @@ MonoBehaviour:
   mainCamera: {fileID: 1909079482}
   dampTime: 0.5
   sizeValue: 4
+  yValue: 3
 --- !u!4 &883069396
 Transform:
   m_ObjectHideFlags: 0
@@ -2330,7 +2332,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909079480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 1.5, z: -49.70307}
+  m_LocalPosition: {x: 2, y: 3, z: -49.70307}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
