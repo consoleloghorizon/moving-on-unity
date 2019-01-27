@@ -469,6 +469,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Horse Statue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824493725446793975, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Not an actual horse, but it's still important to you
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6088abdee407fb409f66ec657435b00, type: 3}
 --- !u!224 &2732056152922669218 stripped
@@ -593,6 +603,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Broken Pocket Watch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824493725446793975, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Given to you by your deceased father
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6088abdee407fb409f66ec657435b00, type: 3}
@@ -719,6 +741,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Pendant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824493725446793975, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Worn by your first girlfriend
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6088abdee407fb409f66ec657435b00, type: 3}
 --- !u!224 &7214594055050337069 stripped
@@ -843,6 +875,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Coffee Mug
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824493725446793975, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: A reminder of a favorite employer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6088abdee407fb409f66ec657435b00, type: 3}

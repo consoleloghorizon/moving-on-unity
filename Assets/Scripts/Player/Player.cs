@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     public float accelerationTimeGrounded = .1f;
     public float accelerationTimeAirborneMultiplier = 2f;
 
+    public Transform RespawnPoint;
+
     public float timeInvincible = 2.0f;
     private float hitAnimation = 0.5f;
 
@@ -61,6 +63,10 @@ public class Player : MonoBehaviour
         if (!invincible)
         {
             game.currentHealth -= 1;
+            if (game.currentHealth <= 0)
+            {
+                instance.transform.position = new Vector3(RespawnPoint.position.x, RespawnPoint.position.y);
+            }
             SetVelocity(Vector2.up * 8.0f);
             StartCoroutine(SetInvincible());
         }
