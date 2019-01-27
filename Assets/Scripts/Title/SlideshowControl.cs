@@ -24,7 +24,6 @@ public class SlideshowControl : MonoBehaviour
     void Update()
     {
         if (intervalTime > durationTime) {
-            Debug.Log("Transition!");
             StartCoroutine(HideSlide(slides[currentIndex], transitionTime));
             currentIndex = (currentIndex == slides.Length - 1) ? 0 : currentIndex + 1;
             StartCoroutine(ShowSlide(slides[currentIndex], transitionTime));

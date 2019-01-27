@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class TitleSceneManager : MonoBehaviour
 {
+    public AudioClip sceneMusic;
+
+    private void Start() {
+        SoundMan.Instance.PlayMusic(sceneMusic);
+    }
+
     void Update()
     {
         if (Input.anyKeyDown) {
