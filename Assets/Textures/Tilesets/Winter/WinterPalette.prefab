@@ -85,6 +85,24 @@ Tilemap:
   m_GameObject: {fileID: 6916370948858050259}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: 0, y: -4, z: 0}
+    second:
+      m_TileIndex: 9
+      m_TileSpriteIndex: 9
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1, y: -4, z: 0}
+    second:
+      m_TileIndex: 10
+      m_TileSpriteIndex: 10
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: -1, y: -3, z: 0}
     second:
       m_TileIndex: 8
@@ -108,6 +126,15 @@ Tilemap:
       m_TileIndex: 10
       m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -3, y: -2, z: 0}
+    second:
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
@@ -201,21 +228,21 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: ec3e7aa2c641f264fb6862ccc76bee08, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 3842e1cab6d5281428b1fee0f9edf39d, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 42a283511d5e7114f9251f921ceaffc4, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 131a17736a48f5149b63a04562561189, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 39cb13021f9602c48b58dde791aefbdd, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 8b8cd6b1df225ab4ca0fd7d5b1203416, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: ee014aa72be6c8041977bb202e1392ab, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 1d4f4c4544f2676458a6bf9ad8503f6d, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 5cf7d0eb407a0864eb628c1da25dee7a, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 0cd7acd5935787e43a6f070d6f8a032e, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 321c8d4de80d7a3498dde2ed7b9d9003, type: 2}
@@ -228,21 +255,21 @@ Tilemap:
     m_Data: {fileID: 21300008, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300010, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300030, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300032, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300034, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300054, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300056, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300058, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300076, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300078, guid: cc3f95cc16cf3664083f977989f8c910, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300006, guid: e8d79c79fc2ff9344b313a602007ce67, type: 3}
@@ -257,6 +284,60 @@ Tilemap:
       e03: 0
       e10: 0
       e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - m_RefCount: 5
+    m_Data:
+      e00: -1
+      e01: 0.00000008742278
+      e02: 0
+      e03: 0
+      e10: -0.00000008742278
+      e11: -1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - m_RefCount: 2
+    m_Data:
+      e00: 0.000000059604645
+      e01: -0.99999994
+      e02: 0
+      e03: 0
+      e10: 0.99999994
+      e11: 0.000000059604645
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - m_RefCount: 0
+    m_Data:
+      e00: 0.9510565
+      e01: -0.30901703
+      e02: 0
+      e03: 0
+      e10: 0.30901703
+      e11: 0.9510565
       e12: 0
       e13: 0
       e20: 0
