@@ -7,6 +7,9 @@ public class GameMan : MonoBehaviour
     public bool isPaused;
     public bool isPlayerFrozen;
     public Player player;
+    private int itemHealthStart = 5;
+
+    public int currentHealth;
 
     public static GameMan Instance
     {
@@ -21,6 +24,7 @@ public class GameMan : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth = itemHealthStart;
         isPaused = false;
     }
 
@@ -33,6 +37,8 @@ public class GameMan : MonoBehaviour
 
         s_Instance = this;
         DontDestroyOnLoad(this);
+
+        GetComponentInParent<PrefabLink>().GetComponentInChildren<ItemSelectController>(true).gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -44,11 +50,11 @@ public class GameMan : MonoBehaviour
 
     public void SetPaused(bool paused)
     {
-        this.isPaused = paused;
+        isPaused = paused;
 
         // if the game is paused, the player should also be frozen
         // but if the game is unpaused and we happen to be in a frozen state, don't change the frozen state
-        if (this.isPaused && !this.isPlayerFrozen)
+        if (isPaused && !isPlayerFrozen)
         {
             SetPlayerFrozen(true);
         }
@@ -56,6 +62,6 @@ public class GameMan : MonoBehaviour
 
     public void SetPlayerFrozen(bool playerFrozen)
     {
-        this.isPlayerFrozen = true;
+        isPlayerFrozen = playerFrozen;
     }
 }
