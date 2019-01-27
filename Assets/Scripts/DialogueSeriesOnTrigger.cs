@@ -7,7 +7,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Collider2D))]
 public class DialogueSeriesOnTrigger : MonoBehaviour
 {
-    public DialogueController dialogueController;
+    private DialogueController dialogueController;
 
     [Header("Trigger Settings")]
     public GameCharacter[] gameCharacter;
@@ -18,6 +18,10 @@ public class DialogueSeriesOnTrigger : MonoBehaviour
     public InventoryController.InventoryChecker[] inventoryChecks;
 
     protected Collider2D m_Collider;
+
+    private void Awake() {
+        dialogueController = GetComponentInParent<PrefabLink>().GetComponentInChildren<DialogueController>(true);
+    }
 
     void Reset()
     {
