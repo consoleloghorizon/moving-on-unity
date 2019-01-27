@@ -6,15 +6,12 @@ public class ContactHazard : MonoBehaviour
 {
 
     public float damageOnHit;
-    public static bool isDefeated = false;
 
     private Player player;
 
     void Start()
     {
-        Debug.Log(isDefeated);
         player = Player.instance;
-        this.gameObject.SetActive(!isDefeated);
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -29,7 +26,7 @@ public class ContactHazard : MonoBehaviour
             // hit top
             if (dir.y > 0)
             {
-                this.gameObject.SetActive(isDefeated);
+                this.gameObject.SetActive(false);
             }
             if (player != null)
             {

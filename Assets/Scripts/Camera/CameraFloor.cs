@@ -11,7 +11,6 @@ public class CameraFloor : MonoBehaviour
         if (target && target.position.y <= resetThreshold)
         {
             target.position = new Vector3(RespawnPoint.position.x, RespawnPoint.position.y);
-            ContactHazard.isDefeated = false;
         };
     }
 
