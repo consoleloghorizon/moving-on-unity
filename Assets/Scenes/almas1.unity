@@ -4994,6 +4994,16 @@ PrefabInstance:
       propertyPath: collisionMask.m_Bits
       value: 2147483648
       objectReference: {fileID: 0}
+    - target: {fileID: 95830146645768368, guid: aaa1f9d178fd44906bd2e320700cebea,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95830146645768368, guid: aaa1f9d178fd44906bd2e320700cebea,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 703a1490ef22aa842a972d981460b2a8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaa1f9d178fd44906bd2e320700cebea, type: 3}
 --- !u!4 &1248545049 stripped
