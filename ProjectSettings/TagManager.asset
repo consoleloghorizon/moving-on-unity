@@ -51,3 +51,9 @@ TagManager:
   - name: Front
     uniqueID: 3405993979
     locked: 0
+  - name: Obstacles
+    uniqueID: 2694152081
+    locked: 0
+  - name: Enemy
+    uniqueID: 1974034071
+    locked: 0
