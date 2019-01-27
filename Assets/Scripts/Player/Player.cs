@@ -56,8 +56,13 @@ public class Player : MonoBehaviour
 
     // Privates
 
+    private GameMan game;
+
+
     private void Awake() {
         instance = this;
+
+        game = FindObjectOfType<GameMan>();
     }
 
     private void Start()
@@ -73,11 +78,14 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        GetInput();
-        Animation();
-        Horizontal();
-        Vertical();
-        ApplyMovement();
+        if (!game.isPlayerFrozen)
+        {
+            GetInput();
+            Animation();
+            Horizontal();
+            Vertical();
+            ApplyMovement();
+        }
 
     }
 
