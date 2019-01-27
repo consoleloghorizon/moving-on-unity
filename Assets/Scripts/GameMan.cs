@@ -26,6 +26,7 @@ public class GameMan : MonoBehaviour
     {
         currentHealth = itemHealthStart;
         isPaused = false;
+        isPlayerFrozen = false;
     }
 
     private void Awake()
