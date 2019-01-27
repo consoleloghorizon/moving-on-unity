@@ -9,7 +9,7 @@ public class TitleSceneManager : MonoBehaviour
     {
         if (Input.anyKeyDown) {
             int currentSceneNumber = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene("_PlatformTemplate");
+            SceneManager.LoadScene("almas1");
         }
     }
 }

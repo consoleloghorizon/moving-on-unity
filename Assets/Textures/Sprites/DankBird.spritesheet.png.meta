@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: cf94a5c7eb2bbf542b4fa2a56e09bb5e
+guid: 6b749f20a057ac04bbf652c69ec78273
 TextureImporter:
   fileIDToRecycleName:
-    21300000: spring_bg
-    21300002: spring_sky
-    21300004: house
-    21300006: house_door_overlay
-    21300008: summer_bg
-    21300010: summer_sky
-    21300012: fall_bg
-    21300014: fall_sky
-    21300016: winter_bg
-    21300018: end_house_door_overlay
-    21300020: end_house
+    21300000: DankBird.spritesheet_0
+    21300002: DankBird.spritesheet_1
+    21300004: DankBird.spritesheet_2
+    21300006: DankBird.spritesheet_3
+    21300008: DankBird.spritesheet_4
+    21300010: DankBird.spritesheet_5
+    21300012: DankBird.spritesheet_6
+    21300014: DankBird.spritesheet_7
+    21300016: DankBird.spritesheet_8
+    21300018: DankBird.spritesheet_9
+    21300020: DankBird.spritesheet_10
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -53,7 +53,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -95,221 +95,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spring_bg
+      name: DankBird.spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 368
-        width: 160
-        height: 144
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de91d4a12890cb342854f66d3df1fdce
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spring_sky
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 480
+        y: 96
         width: 32
         height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1a6216ef5c29a64ca83aa855d50a3be
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: house
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 250
-        width: 231
-        height: 106
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 036d1b990a3aef3458a698ebc52e067a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: house_door_overlay
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 253
-        width: 4
-        height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f140d9467cb6a6847b16450639c73cc8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: summer_bg
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 368
-        width: 160
-        height: 144
-      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3e85de3df0b2b141bbaebb403441e1f
+      spriteID: 3b2c1311ad362f046a55701f8de8dc56
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: summer_sky
+      name: DankBird.spritesheet_1
       rect:
         serializedVersion: 2
-        x: 355
-        y: 480
+        x: 32
+        y: 96
         width: 32
         height: 32
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 363fe62457cdc6c448a88a264afd2a28
+      spriteID: 843583c62b8b06846800693c5882fd23
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fall_bg
+      name: DankBird.spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e673a1219e2ec84ba148d27d41351b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DankBird.spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ef3c4b903009040a2ff3db930cbc66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DankBird.spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ea1a9a5756ae045985e576166cc397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DankBird.spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e662dc445c1b0e44b497ec76a584d52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DankBird.spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0082d42e15038d84f99d1a9c962d8740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DankBird.spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898810707d63a1e44a2179bec63241ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DankBird.spritesheet_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 93
-        width: 160
-        height: 144
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9d42763174a3d842b419dfe64325492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fall_sky
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 205
+        y: 64
         width: 32
         height: 32
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f252cef631b04b4f88a613c1f0eb8e7
+      spriteID: 6abe97f599480e64da4db3d79efa753a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter_bg
+      name: DankBird.spritesheet_9
       rect:
         serializedVersion: 2
-        x: 194
-        y: 93
-        width: 160
-        height: 144
-      alignment: 6
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea71d10474d34134293444f5eb7d5d58
+      spriteID: 13290a65f6f969f43ae11a5c6ab90722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: end_house_door_overlay
+      name: DankBird.spritesheet_10
       rect:
         serializedVersion: 2
-        x: 239
-        y: 253
-        width: 3
-        height: 38
-      alignment: 6
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9965faac45cb8d0479d0fbdfe33cbf0c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: end_house
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 250
-        width: 84
-        height: 85
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e09e0d101a943b468e58e1a371f4184
+      spriteID: a7cf6f1caee0f1b4484930c87ddfa880
       vertices: []
       indices: 
       edges: []
@@ -317,7 +317,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5623f990ffad55644a10a94512bcf223
+    spriteID: e2e314492542f5d4ba55618ec6b84cad
     vertices: []
     indices: 
     edges: []
