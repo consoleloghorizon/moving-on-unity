@@ -9,6 +9,10 @@ public class DialogueSeriesOnTrigger : MonoBehaviour
 {
     public DialogueController dialogueController;
 
+    [Header("Trigger Settings")]
+    public GameCharacter[] gameCharacter;
+    public string[] dialogText;
+
     public LayerMask layers;
     public UnityEvent OnEnter, OnExit;
     public InventoryController.InventoryChecker[] inventoryChecks;
@@ -48,13 +52,13 @@ public class DialogueSeriesOnTrigger : MonoBehaviour
     {
         OnEnter.Invoke();
 
-        DialogueController.Dialoggo[] dialoggos = {
-            new DialogueController.Dialoggo(GameCharacter.PASTEMAN, "its me pasteman 1"),
-            new DialogueController.Dialoggo(GameCharacter.MONDO, "its me karie mondo"),
-            new DialogueController.Dialoggo(GameCharacter.PASTEMAN, "its me pasteman 2")
-        };
+        List<DialogueController.Dialoggo> dialogList = new List<DialogueController.Dialoggo>();
 
-        dialogueController.QueueDialog(dialoggos);
+        for (int i = 0; i < dialogText.Length; i++) {
+            dialogList.Add(new DialogueController.Dialoggo(gameCharacter[i], dialogText[i]));
+        }
+
+        dialogueController.QueueDialog(dialogList.ToArray());
 
         for (int i = 0; i < inventoryChecks.Length; i++)
         {
