@@ -43,20 +43,24 @@ public class Player : MonoBehaviour
 
     // Publics
 
-    public bool IsFacingRight() {
+    public bool IsFacingRight()
+    {
         return facingRight;
     }
 
-    public Direction GetDirection() {
+    public Direction GetDirection()
+    {
         return direction;
     }
 
     public void ApplyDamage(float damage)
     {
+        game = FindObjectOfType<GameMan>();
+
         isDamaged = true;
         if (!invincible)
         {
-            Debug.Log("Player took " + damage + " points of damage.");
+            game.currentHealth -= 1;
             SetVelocity(Vector2.up * 8.0f);
             StartCoroutine(SetInvincible());
         }
@@ -67,7 +71,8 @@ public class Player : MonoBehaviour
     private GameMan game;
 
 
-    private void Awake() {
+    private void Awake()
+    {
         instance = this;
 
         game = FindObjectOfType<GameMan>();
@@ -122,16 +127,20 @@ public class Player : MonoBehaviour
             direction = verticalAimFactor > 0 ? Direction.UP : Direction.DOWN;
         }
 
-        if (isDamaged) {
+        if (isDamaged)
+        {
             animator.SetFloat("Blend", HIT_STATE);
         }
-        else if (movementInput.x != 0 & verticalAimFactor == 0) {
+        else if (movementInput.x != 0 & verticalAimFactor == 0)
+        {
             animator.SetFloat("Blend", WALK_STATE);
         }
-        else if (movementInput.x == 0 && verticalAimFactor == 0) {
+        else if (movementInput.x == 0 && verticalAimFactor == 0)
+        {
             animator.SetFloat("Blend", IDLE_STATE);
         }
-        else {
+        else
+        {
             animator.SetFloat("Blend", JUMP_STATE);
         }
     }
@@ -197,7 +206,8 @@ public class Player : MonoBehaviour
         float elapsedTime = 0f;
         while (elapsedTime < timeInvincible)
         {
-            if (elapsedTime > hitAnimation) {
+            if (elapsedTime > hitAnimation)
+            {
                 isDamaged = false;
             }
             spriteRenderer.enabled = !spriteRenderer.enabled;

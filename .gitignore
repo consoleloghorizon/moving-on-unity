@@ -45,4 +45,5 @@ sysinfo.txt
 
 # Built Executables
 Game_Data/
+Game.app/
 *.exe
