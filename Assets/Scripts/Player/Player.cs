@@ -13,6 +13,12 @@ public class Player : MonoBehaviour
     public float accelerationTimeAirborneMultiplier = 2f;
 
     public float timeInvincible = 2.0f;
+    private float hitAnimation = 0.5f;
+
+    private readonly float IDLE_STATE = 0.0f;
+    private readonly float WALK_STATE = 0.33f;
+    private readonly float HIT_STATE = 0.66f;
+    private readonly float JUMP_STATE = 1.0f;
 
     bool invincible;
     bool forceApplied;
@@ -27,6 +33,7 @@ public class Player : MonoBehaviour
 
     Direction direction;
     bool facingRight;
+    bool isDamaged;
 
     Animator animator;
     SpriteRenderer spriteRenderer;
@@ -46,6 +53,7 @@ public class Player : MonoBehaviour
 
     public void ApplyDamage(float damage)
     {
+        isDamaged = true;
         if (!invincible)
         {
             Debug.Log("Player took " + damage + " points of damage.");
@@ -113,6 +121,19 @@ public class Player : MonoBehaviour
         {
             direction = verticalAimFactor > 0 ? Direction.UP : Direction.DOWN;
         }
+
+        if (isDamaged) {
+            animator.SetFloat("Blend", HIT_STATE);
+        }
+        else if (movementInput.x != 0 & verticalAimFactor == 0) {
+            animator.SetFloat("Blend", WALK_STATE);
+        }
+        else if (movementInput.x == 0 && verticalAimFactor == 0) {
+            animator.SetFloat("Blend", IDLE_STATE);
+        }
+        else {
+            animator.SetFloat("Blend", JUMP_STATE);
+        }
     }
 
     private void Animation()
@@ -176,6 +197,9 @@ public class Player : MonoBehaviour
         float elapsedTime = 0f;
         while (elapsedTime < timeInvincible)
         {
+            if (elapsedTime > hitAnimation) {
+                isDamaged = false;
+            }
             spriteRenderer.enabled = !spriteRenderer.enabled;
             elapsedTime += .04f;
             yield return new WaitForSeconds(.04f);
