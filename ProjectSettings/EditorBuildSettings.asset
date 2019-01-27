@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/almas1.unity
     guid: e0f04dbb2224642ea8ca8753068e938f
+  - enabled: 1
+    path: Assets/Scenes/almasLevel2.unity
+    guid: 160f70828060640c180e7596967cd925
   m_configObjects: {}

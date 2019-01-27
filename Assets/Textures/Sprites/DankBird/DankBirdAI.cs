@@ -24,10 +24,8 @@ public class DankBirdAI : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Distance Travelled:" + distanceTravelled);
         if (distanceTravelled < maxPatrolDistance) {
             float distance = (isReverse) ? speed * -1 : speed;
-            Debug.Log("Distance:" + distance);
             transform.position = new Vector3(transform.position.x + distance, transform.position.y, transform.position.z);
         }
         else {

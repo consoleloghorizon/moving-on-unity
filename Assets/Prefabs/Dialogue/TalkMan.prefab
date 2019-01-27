@@ -45,6 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0364623626f14430b7b1cb2f351f6a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 7703715972522575068}
+  mondoController: {fileID: 3975682300168777526}
 --- !u!1001 &3943983747592684584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52,10 +54,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2303797675799620805}
     m_Modifications:
-    - target: {fileID: 1009638384006160, guid: 32365a9ccf77c4b94b965406c82e870d, type: 3}
-      propertyPath: m_Name
-      value: MondoDialogueCanvas
-      objectReference: {fileID: 0}
     - target: {fileID: 224260303033278428, guid: 32365a9ccf77c4b94b965406c82e870d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -176,11 +174,20 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1009638384006160, guid: 32365a9ccf77c4b94b965406c82e870d, type: 3}
+      propertyPath: m_Name
+      value: MondoDialogueCanvas
+      objectReference: {fileID: 0}
     - target: {fileID: 114488631859498054, guid: 32365a9ccf77c4b94b965406c82e870d,
         type: 3}
       propertyPath: m_fontSize
-      value: 72
+      value: 62.3
       objectReference: {fileID: 0}
+    - target: {fileID: 114488631859498054, guid: 32365a9ccf77c4b94b965406c82e870d,
+        type: 3}
+      propertyPath: m_textInfo.textComponent
+      value: 
+      objectReference: {fileID: 3975946880665471086}
     - target: {fileID: 114488631859498054, guid: 32365a9ccf77c4b94b965406c82e870d,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -204,18 +211,39 @@ PrefabInstance:
     - target: {fileID: 114488631859498054, guid: 32365a9ccf77c4b94b965406c82e870d,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114488631859498054, guid: 32365a9ccf77c4b94b965406c82e870d,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114488631859498054, guid: 32365a9ccf77c4b94b965406c82e870d,
         type: 3}
       propertyPath: m_inputSource
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114751280143084318, guid: 32365a9ccf77c4b94b965406c82e870d,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 4028603125682444136}
+    - target: {fileID: 114751280143084318, guid: 32365a9ccf77c4b94b965406c82e870d,
+        type: 3}
+      propertyPath: textMeshProUGUI
+      value: 
+      objectReference: {fileID: 3975946880665471086}
+    - target: {fileID: 114153677951152638, guid: 32365a9ccf77c4b94b965406c82e870d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e0dbdbad09e1fc74cb8888e71cb2bdba,
+        type: 3}
+    - target: {fileID: 95067017798933078, guid: 32365a9ccf77c4b94b965406c82e870d,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1515fc3aa7fad8642bf4a1b3c828b553, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32365a9ccf77c4b94b965406c82e870d, type: 3}
 --- !u!224 &3866168602481138676 stripped
@@ -224,6 +252,36 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 3943983747592684584}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &4028603125682444136 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95597451942662976, guid: 32365a9ccf77c4b94b965406c82e870d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3943983747592684584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3975682300168777526 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114751280143084318, guid: 32365a9ccf77c4b94b965406c82e870d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3943983747592684584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e278214686a68c643ba1e29516fe4fae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3975946880665471086 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114488631859498054, guid: 32365a9ccf77c4b94b965406c82e870d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3943983747592684584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7745827910401208258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -231,10 +289,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2303797675799620805}
     m_Modifications:
-    - target: {fileID: 1009638384006160, guid: 6cf554b71c80b44c69ee4b5008f1bf37, type: 3}
-      propertyPath: m_Name
-      value: PlayerDialogueCanvas
-      objectReference: {fileID: 0}
     - target: {fileID: 224260303033278428, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -355,11 +409,20 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1009638384006160, guid: 6cf554b71c80b44c69ee4b5008f1bf37, type: 3}
+      propertyPath: m_Name
+      value: PlayerDialogueCanvas
+      objectReference: {fileID: 0}
     - target: {fileID: 114488631859498054, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
         type: 3}
       propertyPath: m_fontSize
-      value: 72
+      value: 62.3
       objectReference: {fileID: 0}
+    - target: {fileID: 114488631859498054, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
+        type: 3}
+      propertyPath: m_textInfo.textComponent
+      value: 
+      objectReference: {fileID: 7703420081242071940}
     - target: {fileID: 114488631859498054, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -383,18 +446,39 @@ PrefabInstance:
     - target: {fileID: 114488631859498054, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
         type: 3}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114488631859498054, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114488631859498054, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
         type: 3}
       propertyPath: m_inputSource
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114751280143084318, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 7650793410701081730}
+    - target: {fileID: 114751280143084318, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
+        type: 3}
+      propertyPath: textMeshProUGUI
+      value: 
+      objectReference: {fileID: 7703420081242071940}
+    - target: {fileID: 114153677951152638, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bcf25c72b9df74e47834521f520b7d74,
+        type: 3}
+    - target: {fileID: 95067017798933078, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b0374ca02381dee49a92947027fa5830, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cf554b71c80b44c69ee4b5008f1bf37, type: 3}
 --- !u!224 &7521590806130470942 stripped
@@ -403,3 +487,33 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 7745827910401208258}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &7650793410701081730 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95597451942662976, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
+    type: 3}
+  m_PrefabInstance: {fileID: 7745827910401208258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7703715972522575068 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114751280143084318, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
+    type: 3}
+  m_PrefabInstance: {fileID: 7745827910401208258}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e278214686a68c643ba1e29516fe4fae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7703420081242071940 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114488631859498054, guid: 6cf554b71c80b44c69ee4b5008f1bf37,
+    type: 3}
+  m_PrefabInstance: {fileID: 7745827910401208258}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -26,6 +26,11 @@ public class DialogueController : MonoBehaviour
 
     private DialogueCanvasController lastDialogueController;
 
+    private void Awake() {
+        playerController.gameObject.SetActive(false);
+        mondoController.gameObject.SetActive(false);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,9 +68,11 @@ public class DialogueController : MonoBehaviour
         {
             case GameCharacter.PASTEMAN:
                 canvasController = playerController;
+                playerController.gameObject.SetActive(true);
                 break;
             case GameCharacter.MONDO:
                 canvasController = mondoController;
+                mondoController.gameObject.SetActive(true);
                 break;
         }
         this.lastDialogueController = canvasController;
