@@ -22,7 +22,7 @@ public class DankBirdAI : MonoBehaviour
         isReverse = false;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (distanceTravelled < maxPatrolDistance) {
             float distance = (isReverse) ? speed * -1 : speed;
