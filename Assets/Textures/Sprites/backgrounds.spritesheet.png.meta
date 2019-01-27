@@ -11,6 +11,8 @@ TextureImporter:
     21300012: fall_bg
     21300014: fall_sky
     21300016: winter_bg
+    21300018: end_house_door_overlay
+    21300020: end_house
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -180,7 +182,7 @@ TextureImporter:
         y: 368
         width: 160
         height: 144
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -200,7 +202,7 @@ TextureImporter:
         y: 480
         width: 32
         height: 32
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -220,7 +222,7 @@ TextureImporter:
         y: 93
         width: 160
         height: 144
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -240,7 +242,7 @@ TextureImporter:
         y: 205
         width: 32
         height: 32
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -260,7 +262,7 @@ TextureImporter:
         y: 93
         width: 160
         height: 144
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -268,6 +270,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ea71d10474d34134293444f5eb7d5d58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: end_house_door_overlay
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 253
+        width: 3
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9965faac45cb8d0479d0fbdfe33cbf0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: end_house
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 250
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e09e0d101a943b468e58e1a371f4184
       vertices: []
       indices: 
       edges: []

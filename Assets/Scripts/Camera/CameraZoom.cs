@@ -13,7 +13,6 @@ public class CameraZoom : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D col) {
-        Debug.Log("OnCollisionEnter: " + col.gameObject.name);
         float initialSize = mainCamera.orthographicSize;
         float initialHeight = mainCamera.transform.position.y;
         StartCoroutine(LerpCamera(initialSize, initialHeight, dampTime));
