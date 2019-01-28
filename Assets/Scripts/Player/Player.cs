@@ -58,25 +58,33 @@ public class Player : MonoBehaviour
     public void ApplyDamage(float damage)
     {
         game = FindObjectOfType<GameMan>();
-
-        if (game.currentHealth <= 0)
-        {
-            this.transform.position = new Vector3(RespawnPoint.position.x, RespawnPoint.position.y);
-            game.currentHealth = 5;
-        }
+        enemies = FindObjectOfType<DankBirdAI>();
 
         isDamaged = true;
         if (!invincible)
         {
             game.currentHealth -= 1;
+
+            if (game.currentHealth < 1)
+            {
+                this.transform.position = new Vector3(RespawnPoint.position.x, RespawnPoint.position.y);
+                game.currentHealth = 5;
+                isDamaged = false;
+                enemies.ResetBirds();
+                spriteRenderer.enabled = true;
+                return;
+            }
+
             SetVelocity(Vector2.up * 8.0f);
             StartCoroutine(SetInvincible());
         }
+
     }
 
     // Privates
 
     private GameMan game;
+    private DankBirdAI enemies;
 
 
     private void Awake()
