@@ -8034,6 +8034,11 @@ PrefabInstance:
       propertyPath: collisionMask.m_Bits
       value: 2147483648
       objectReference: {fileID: 0}
+    - target: {fileID: 114391158498838740, guid: aaa1f9d178fd44906bd2e320700cebea,
+        type: 3}
+      propertyPath: RespawnPoint
+      value: 
+      objectReference: {fileID: 230746585}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaa1f9d178fd44906bd2e320700cebea, type: 3}
 --- !u!1 &1557980002
