@@ -59,14 +59,16 @@ public class Player : MonoBehaviour
     {
         game = FindObjectOfType<GameMan>();
 
+        if (game.currentHealth <= 0)
+        {
+            this.transform.position = new Vector3(RespawnPoint.position.x, RespawnPoint.position.y);
+            game.currentHealth = 5;
+        }
+
         isDamaged = true;
         if (!invincible)
         {
             game.currentHealth -= 1;
-            if (game.currentHealth <= 0)
-            {
-                instance.transform.position = new Vector3(RespawnPoint.position.x, RespawnPoint.position.y);
-            }
             SetVelocity(Vector2.up * 8.0f);
             StartCoroutine(SetInvincible());
         }
