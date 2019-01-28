@@ -124,6 +124,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DankBird (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -489,6 +494,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DankBird (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -563,6 +573,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DankBird (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
@@ -1277,6 +1292,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DankBird (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1737,6 +1757,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DankBird (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1812,6 +1837,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DankBird (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1886,6 +1916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DankBird (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
@@ -7418,6 +7453,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DankBird (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7701,6 +7741,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DankBird (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7775,6 +7820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DankBird (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
@@ -8083,6 +8133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DankBird (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8157,6 +8212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DankBird
+      objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
@@ -8830,6 +8890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DankBird (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9442,6 +9507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DankBird (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 969834557522330142, guid: 67350bc8b9add084aaf732407e8a7d21,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6922323895041591125, guid: 67350bc8b9add084aaf732407e8a7d21,
         type: 3}
