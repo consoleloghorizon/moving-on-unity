@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
         return direction;
     }
 
-    public void ApplyDamage(float damage)
+    public void ApplyDamage(int damage)
     {
         game = FindObjectOfType<GameMan>();
         enemies = FindObjectOfType<DankBirdAI>();
@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
         isDamaged = true;
         if (!invincible)
         {
-            game.currentHealth -= 1;
+            game.currentHealth -= damage;
 
             if (game.currentHealth < 1)
             {

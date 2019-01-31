@@ -15,6 +15,10 @@ public class DankBirdAI : MonoBehaviour
 
     public static DankBirdAI instance;
 
+    public int damageOnHit;
+
+    private Player player;
+
     Vector3 initialPos;
 
     private void Awake()
@@ -28,6 +32,7 @@ public class DankBirdAI : MonoBehaviour
     {
         initialPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         spriteRenderer = GetComponent<SpriteRenderer>();
+        player = Player.instance;
 
         distanceTravelled = 0f;
         isReverse = false;
@@ -48,13 +53,33 @@ public class DankBirdAI : MonoBehaviour
         }
         distanceTravelled++;
     }
+
     public void KillBird()
     {
-        Debug.Log("I AM KILL");
         spriteRenderer.enabled = false;
+        Destroy(GetComponent<BoxCollider2D>());
+        Destroy(this);
     }
     public void ResetBirds()
     {
         transform.position = initialPos;
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        Vector3 dir = (col.transform.position - gameObject.transform.position).normalized;
+
+        if (col.name == "Player")
+        {
+            if (dir.y > 0.5)
+            {
+                player.ApplyDamage(0); //Trigger invincibility for a moment and bounce the player
+                this.KillBird();
+            }
+            else
+            {
+                player.ApplyDamage(damageOnHit);
+            }
+        }
     }
 }
