@@ -12,6 +12,7 @@ public class DankBirdAI : MonoBehaviour
     private bool isReverse;
     private Animator _animator;
     SpriteRenderer spriteRenderer;
+    BoxCollider2D objectCollider;
 
     public static DankBirdAI instance;
 
@@ -28,10 +29,13 @@ public class DankBirdAI : MonoBehaviour
         instance = this;
     }
 
-    void Start()
+    public void Start()
     {
         initialPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         spriteRenderer = GetComponent<SpriteRenderer>();
+        objectCollider = GetComponent<BoxCollider2D>();
+        spriteRenderer.enabled = true;
+        objectCollider.enabled = true;
         player = Player.instance;
 
         distanceTravelled = 0f;
@@ -57,17 +61,22 @@ public class DankBirdAI : MonoBehaviour
     public void KillBird()
     {
         spriteRenderer.enabled = false;
-        Destroy(GetComponent<BoxCollider2D>());
-        Destroy(this);
+        objectCollider.enabled = false;
     }
     public void ResetBirds()
     {
+        Debug.Log("BirdRender" + spriteRenderer.enabled);
+        spriteRenderer.enabled = true;
+        objectCollider.enabled = true;
         transform.position = initialPos;
+        Debug.Log("BirdRender1" + spriteRenderer.enabled);
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
         Vector3 dir = (col.transform.position - gameObject.transform.position).normalized;
+
+        Debug.Log("HELLO" + col);
 
         if (col.name == "Player")
         {

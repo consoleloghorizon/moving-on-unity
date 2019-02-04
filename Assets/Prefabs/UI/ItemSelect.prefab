@@ -469,15 +469,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+    - target: {fileID: 696864409019104752, guid: c6088abdee407fb409f66ec657435b00,
         type: 3}
-      propertyPath: m_Text
-      value: Horse Statue
-      objectReference: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed82b62a818ad41b2bb52684d952d865,
+        type: 3}
     - target: {fileID: 5824493725446793975, guid: c6088abdee407fb409f66ec657435b00,
         type: 3}
       propertyPath: m_Text
       value: Not an actual horse, but it's still important to you
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Horse Statue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6088abdee407fb409f66ec657435b00, type: 3}
@@ -604,17 +610,28 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+    - target: {fileID: 1409881056341440134, guid: c6088abdee407fb409f66ec657435b00,
         type: 3}
-      propertyPath: m_Text
-      value: Broken Pocket Watch
+      propertyPath: m_SizeDelta.x
+      value: 130
       objectReference: {fileID: 0}
+    - target: {fileID: 696864409019104752, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1728265dbb9b049df9995c262954a28d,
+        type: 3}
     - target: {fileID: 5824493725446793975, guid: c6088abdee407fb409f66ec657435b00,
         type: 3}
       propertyPath: m_Text
       value: 'Given to you by your deceased father
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Broken Pocket Watch
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6088abdee407fb409f66ec657435b00, type: 3}
@@ -741,15 +758,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+    - target: {fileID: 1409881056341440134, guid: c6088abdee407fb409f66ec657435b00,
         type: 3}
-      propertyPath: m_Text
-      value: Pendant
+      propertyPath: m_SizeDelta.x
+      value: 130
       objectReference: {fileID: 0}
+    - target: {fileID: 696864409019104752, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a971f1f6a23694d5799abfc5da0efc42,
+        type: 3}
     - target: {fileID: 5824493725446793975, guid: c6088abdee407fb409f66ec657435b00,
         type: 3}
       propertyPath: m_Text
       value: Worn by your first girlfriend
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Pendant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6088abdee407fb409f66ec657435b00, type: 3}
@@ -876,15 +904,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+    - target: {fileID: 1409881056341440134, guid: c6088abdee407fb409f66ec657435b00,
         type: 3}
-      propertyPath: m_Text
-      value: Coffee Mug
+      propertyPath: m_SizeDelta.x
+      value: 130
       objectReference: {fileID: 0}
+    - target: {fileID: 696864409019104752, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2042209afd0c844a189215c258c4d041,
+        type: 3}
     - target: {fileID: 5824493725446793975, guid: c6088abdee407fb409f66ec657435b00,
         type: 3}
       propertyPath: m_Text
       value: A reminder of a favorite employer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135971049348920246, guid: c6088abdee407fb409f66ec657435b00,
+        type: 3}
+      propertyPath: m_Text
+      value: Coffee Mug
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6088abdee407fb409f66ec657435b00, type: 3}

@@ -55,10 +55,19 @@ public class Player : MonoBehaviour
         return direction;
     }
 
+    public void Respawn()
+    {
+        Debug.Log("I AM DEAD?");
+        this.transform.position = new Vector3(RespawnPoint.position.x, RespawnPoint.position.y);
+        game.currentHealth = 5;
+        isDamaged = false;
+        enemies.ResetBirds();
+        spriteRenderer.enabled = true;
+    }
+
     public void ApplyDamage(int damage)
     {
         game = FindObjectOfType<GameMan>();
-        enemies = FindObjectOfType<DankBirdAI>();
 
         isDamaged = true;
         if (!invincible)
@@ -67,11 +76,7 @@ public class Player : MonoBehaviour
 
             if (game.currentHealth < 1)
             {
-                this.transform.position = new Vector3(RespawnPoint.position.x, RespawnPoint.position.y);
-                game.currentHealth = 5;
-                isDamaged = false;
-                enemies.ResetBirds();
-                spriteRenderer.enabled = true;
+                this.Respawn();
                 return;
             }
 
