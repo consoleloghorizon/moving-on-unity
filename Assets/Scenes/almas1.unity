@@ -6143,6 +6143,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9039792264082231232, guid: d067014c2219241508168eb3e6a92a4c,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9039792262843850607, guid: d067014c2219241508168eb3e6a92a4c,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -6400,6 +6405,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2923507701841792996, guid: 897f052f31da14c91bf74d200950043d,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2923507700537570157, guid: 897f052f31da14c91bf74d200950043d,
         type: 3}
