@@ -7,15 +7,18 @@ public class TitleSceneManager : MonoBehaviour
 {
     public AudioClip sceneMusic;
 
-    private void Start() {
+    private void Start()
+    {
         SoundMan.Instance.PlayMusic(sceneMusic);
     }
 
     void Update()
     {
-        if (Input.anyKeyDown) {
+        if (Input.anyKeyDown)
+        {
             int currentSceneNumber = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene("almas1");
+            SpeedClock.Instance.Start();
         }
     }
 }
